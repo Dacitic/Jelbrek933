@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		798C348C1EFDBAC60078280B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C348B1EFDBAC60078280B /* main.m */; };
+		798C348F1EFDBAC60078280B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C348E1EFDBAC60078280B /* AppDelegate.m */; };
+		798C34921EFDBAC60078280B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C34911EFDBAC60078280B /* ViewController.m */; };
+		798C34951EFDBAC60078280B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798C34931EFDBAC60078280B /* Main.storyboard */; };
+		798C34981EFDBAC60078280B /* Jelbrek933.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 798C34961EFDBAC60078280B /* Jelbrek933.xcdatamodeld */; };
+		798C349A1EFDBAC60078280B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798C34991EFDBAC60078280B /* Assets.xcassets */; };
+		798C349D1EFDBAC60078280B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798C349B1EFDBAC60078280B /* LaunchScreen.storyboard */; };
+		798C34A71EFDCE9B0078280B /* exec in Resources */ = {isa = PBXBuildFile; fileRef = 798C34A41EFDCE9B0078280B /* exec */; };
+		798C34A81EFDCE9B0078280B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 798C34A51EFDCE9B0078280B /* index.html */; };
+		798C34A91EFDCE9B0078280B /* loader in Resources */ = {isa = PBXBuildFile; fileRef = 798C34A61EFDCE9B0078280B /* loader */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		798C34871EFDBAC60078280B /* Jelbrek933.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jelbrek933.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		798C348B1EFDBAC60078280B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		798C348D1EFDBAC60078280B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		798C348E1EFDBAC60078280B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		798C34901EFDBAC60078280B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		798C34911EFDBAC60078280B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		798C34941EFDBAC60078280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		798C34971EFDBAC60078280B /* Jelbrek933.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jelbrek933.xcdatamodel; sourceTree = "<group>"; };
+		798C34991EFDBAC60078280B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		798C349C1EFDBAC60078280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		798C349E1EFDBAC60078280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798C34A41EFDCE9B0078280B /* exec */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = exec; sourceTree = "<group>"; };
+		798C34A51EFDCE9B0078280B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		798C34A61EFDCE9B0078280B /* loader */ = {isa = PBXFileReference; lastKnownFileType = file; path = loader; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		798C34841EFDBAC60078280B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798C347E1EFDBAC60078280B = {
+			isa = PBXGroup;
+			children = (
+				798C34891EFDBAC60078280B /* Jelbrek933 */,
+				798C34881EFDBAC60078280B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		798C34881EFDBAC60078280B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				798C34871EFDBAC60078280B /* Jelbrek933.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		798C34891EFDBAC60078280B /* Jelbrek933 */ = {
+			isa = PBXGroup;
+			children = (
+				798C348D1EFDBAC60078280B /* AppDelegate.h */,
+				798C348E1EFDBAC60078280B /* AppDelegate.m */,
+				798C34901EFDBAC60078280B /* ViewController.h */,
+				798C34911EFDBAC60078280B /* ViewController.m */,
+				798C34A41EFDCE9B0078280B /* exec */,
+				798C34A51EFDCE9B0078280B /* index.html */,
+				798C34A61EFDCE9B0078280B /* loader */,
+				798C34931EFDBAC60078280B /* Main.storyboard */,
+				798C34991EFDBAC60078280B /* Assets.xcassets */,
+				798C349B1EFDBAC60078280B /* LaunchScreen.storyboard */,
+				798C349E1EFDBAC60078280B /* Info.plist */,
+				798C34961EFDBAC60078280B /* Jelbrek933.xcdatamodeld */,
+				798C348A1EFDBAC60078280B /* Supporting Files */,
+			);
+			path = Jelbrek933;
+			sourceTree = "<group>";
+		};
+		798C348A1EFDBAC60078280B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				798C348B1EFDBAC60078280B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		798C34861EFDBAC60078280B /* Jelbrek933 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798C34A11EFDBAC60078280B /* Build configuration list for PBXNativeTarget "Jelbrek933" */;
+			buildPhases = (
+				798C34831EFDBAC60078280B /* Sources */,
+				798C34841EFDBAC60078280B /* Frameworks */,
+				798C34851EFDBAC60078280B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jelbrek933;
+			productName = Jelbrek933;
+			productReference = 798C34871EFDBAC60078280B /* Jelbrek933.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		798C347F1EFDBAC60078280B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = PMJelbrek;
+				TargetAttributes = {
+					798C34861EFDBAC60078280B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 798C34821EFDBAC60078280B /* Build configuration list for PBXProject "Jelbrek933" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 798C347E1EFDBAC60078280B;
+			productRefGroup = 798C34881EFDBAC60078280B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				798C34861EFDBAC60078280B /* Jelbrek933 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		798C34851EFDBAC60078280B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C34A81EFDCE9B0078280B /* index.html in Resources */,
+				798C349D1EFDBAC60078280B /* LaunchScreen.storyboard in Resources */,
+				798C34A71EFDCE9B0078280B /* exec in Resources */,
+				798C349A1EFDBAC60078280B /* Assets.xcassets in Resources */,
+				798C34951EFDBAC60078280B /* Main.storyboard in Resources */,
+				798C34A91EFDCE9B0078280B /* loader in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		798C34831EFDBAC60078280B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C34921EFDBAC60078280B /* ViewController.m in Sources */,
+				798C34981EFDBAC60078280B /* Jelbrek933.xcdatamodeld in Sources */,
+				798C348F1EFDBAC60078280B /* AppDelegate.m in Sources */,
+				798C348C1EFDBAC60078280B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		798C34931EFDBAC60078280B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798C34941EFDBAC60078280B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		798C349B1EFDBAC60078280B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798C349C1EFDBAC60078280B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		798C349F1EFDBAC60078280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		798C34A01EFDBAC60078280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		798C34A21EFDBAC60078280B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = Jelbrek933/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jelbrek.Jelbrek933;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		798C34A31EFDBAC60078280B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = Jelbrek933/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jelbrek.Jelbrek933;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		798C34821EFDBAC60078280B /* Build configuration list for PBXProject "Jelbrek933" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C349F1EFDBAC60078280B /* Debug */,
+				798C34A01EFDBAC60078280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798C34A11EFDBAC60078280B /* Build configuration list for PBXNativeTarget "Jelbrek933" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C34A21EFDBAC60078280B /* Debug */,
+				798C34A31EFDBAC60078280B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		798C34961EFDBAC60078280B /* Jelbrek933.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				798C34971EFDBAC60078280B /* Jelbrek933.xcdatamodel */,
+			);
+			currentVersion = 798C34971EFDBAC60078280B /* Jelbrek933.xcdatamodel */;
+			path = Jelbrek933.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 798C347F1EFDBAC60078280B /* Project object */;
+}
