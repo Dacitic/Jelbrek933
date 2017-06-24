@@ -7,6 +7,6 @@ App for Luca's iOS Jailbreak
 Compiled iPA {
 	https://github.com/Dacitic/Jelbrek933/releases
 }
-Source Code {
-	
+Source Code (Latest) {
+	https://github.com/Dacitic/Jelbrek933/archive/master.zip
 }
