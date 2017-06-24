@@ -17,35 +17,41 @@
 -(BOOL)prefersStatusBarHidden{
     return YES;
 }
-// Sorry for really messy code
-// I will adventually go back and clean it up
-- (IBAction)oof:(id)sender {
-    NSLog(@"Oof");
+/* Sorry for really messy code
+I will adventually go back and clean it up */
+
+- (IBAction)oof:(id)sender { // Change URL Menu
+    
+    // UIAlertController (Setup)
+    
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Menu" message:@"Load URL To:" preferredStyle:UIAlertControllerStyleActionSheet];
-    [alert addAction:[UIAlertAction actionWithTitle:@"Official Site (Defualt)" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        NSLog(@"Reload OG WEBSITE");
-        NSString *urlSTRR = @"https://jbme.qwertyoruiop.com";
-        NSLog(@"%@", urlSTRR);
-        NSURL *urlToLoaad = [NSURL URLWithString:urlSTRR];
+    // UIAlertController (Add Load jbme.qwertyoruiop.com (Default Load... But Useful If You Want To Load Again...
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"https://jbme.qwertyoruiop.com" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"Reload OG WEBSITE"); // debug
         
-        NSURLRequest *urlReqq = [NSURLRequest requestWithURL:urlToLoaad];
-        [_webView loadRequest:urlReqq];
+        
+        NSURL *urlToLoaad = [NSURL URLWithString:@"https://jbme.qwertyoruiop.com"]; // load string
+        
+        NSURLRequest *urlReqq = [NSURLRequest requestWithURL:urlToLoaad]; // url
+        
+        [_webView loadRequest:urlReqq]; // load url
         
     }]];
+    // UIAlertController (Add Load https://repo.avalon-studios.de (Secondary Server))
     [alert addAction:[UIAlertAction actionWithTitle:@"https://repo.avalon-studios.de" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        NSLog(@"https://repo.avalon-studios.de");
-        NSString *urlST = @"https://repo.avalon-studios.de";
-        NSLog(@"%@", urlST);
-        NSURL *urlToLoaadd = [NSURL URLWithString:urlST];
         
-        NSURLRequest *urlReqqq = [NSURLRequest requestWithURL:urlToLoaadd];
-        [_webView loadRequest:urlReqqq];
+        NSURL *avalon = [NSURL URLWithString:@"https://repo.avalon-studios.de"];
+        
+        NSURLRequest *ReqAvalon = [NSURLRequest requestWithURL:avalon];
+        [_webView loadRequest:ReqAvalon];
 
         
     }]];
+    // UIAlertController (Add Custom Load)
     [alert addAction:[UIAlertAction actionWithTitle:@"Custom URL" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         UIAlertController * alertController = [UIAlertController alertControllerWithTitle: @"URL"
-                                                                                  message: @"Input URL"
+                                                                                  message: @"Input URL (May Take A Few Seconds To Load...)"
                                                                            preferredStyle:UIAlertControllerStyleAlert];
         [alertController addTextFieldWithConfigurationHandler:^(UITextField *textInput) {
             textInput.placeholder = @"https://example.com";
@@ -53,17 +59,17 @@
             textInput.clearButtonMode = UITextFieldViewModeWhileEditing;
             textInput.borderStyle = UITextBorderStyleRoundedRect;
         }];
+        // UIAlertController (OK Button)
         [alertController addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
             NSArray * textfields = alertController.textFields;
             UITextField * URLIn = textfields[0];
             NSLog(@"%@",URLIn.text);
+            
             // Load the new url
-            NSString *NEWURL = URLIn.text;
-            NSLog(@"%@", NEWURL);
-            NSURL *NEWToLoad = [NSURL URLWithString:NEWURL];
+            NSURL *NEWToLoad = [NSURL URLWithString:URLIn.text];
             
             NSURLRequest *NEWReq = [NSURLRequest requestWithURL:NEWToLoad];
-            [_webView loadRequest:NEWReq];
+            [_webView loadRequest:NEWReq]; // Load WebView
             
         }]];
         [self presentViewController:alertController animated:YES completion:nil];
@@ -83,12 +89,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *urlSTR = @"https://jbme.qwertyoruiop.com";
-    NSLog(@"%@", urlSTR);
-    NSURL *urlToLoad = [NSURL URLWithString:urlSTR];
     
-    NSURLRequest *urlReq = [NSURLRequest requestWithURL:urlToLoad];
-    [_webView loadRequest:urlReq];
+    NSURLRequest *JbmeREQ = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://jbme.qwertyoruiop.com"]];
+    
+    [_webView loadRequest:JbmeREQ];
 }
 
 
