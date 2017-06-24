@@ -14,9 +14,6 @@
 		798C34981EFDBAC60078280B /* Jelbrek933.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 798C34961EFDBAC60078280B /* Jelbrek933.xcdatamodeld */; };
 		798C349A1EFDBAC60078280B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798C34991EFDBAC60078280B /* Assets.xcassets */; };
 		798C349D1EFDBAC60078280B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798C349B1EFDBAC60078280B /* LaunchScreen.storyboard */; };
-		798C34A71EFDCE9B0078280B /* exec in Resources */ = {isa = PBXBuildFile; fileRef = 798C34A41EFDCE9B0078280B /* exec */; };
-		798C34A81EFDCE9B0078280B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 798C34A51EFDCE9B0078280B /* index.html */; };
-		798C34A91EFDCE9B0078280B /* loader in Resources */ = {isa = PBXBuildFile; fileRef = 798C34A61EFDCE9B0078280B /* loader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +28,6 @@
 		798C34991EFDBAC60078280B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		798C349C1EFDBAC60078280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		798C349E1EFDBAC60078280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		798C34A41EFDCE9B0078280B /* exec */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = exec; sourceTree = "<group>"; };
-		798C34A51EFDCE9B0078280B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		798C34A61EFDCE9B0078280B /* loader */ = {isa = PBXFileReference; lastKnownFileType = file; path = loader; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +64,6 @@
 				798C348E1EFDBAC60078280B /* AppDelegate.m */,
 				798C34901EFDBAC60078280B /* ViewController.h */,
 				798C34911EFDBAC60078280B /* ViewController.m */,
-				798C34A41EFDCE9B0078280B /* exec */,
-				798C34A51EFDCE9B0078280B /* index.html */,
-				798C34A61EFDCE9B0078280B /* loader */,
 				798C34931EFDBAC60078280B /* Main.storyboard */,
 				798C34991EFDBAC60078280B /* Assets.xcassets */,
 				798C349B1EFDBAC60078280B /* LaunchScreen.storyboard */,
@@ -149,12 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				798C34A81EFDCE9B0078280B /* index.html in Resources */,
 				798C349D1EFDBAC60078280B /* LaunchScreen.storyboard in Resources */,
-				798C34A71EFDCE9B0078280B /* exec in Resources */,
 				798C349A1EFDBAC60078280B /* Assets.xcassets in Resources */,
 				798C34951EFDBAC60078280B /* Main.storyboard in Resources */,
-				798C34A91EFDCE9B0078280B /* loader in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
