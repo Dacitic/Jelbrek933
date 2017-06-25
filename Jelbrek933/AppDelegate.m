@@ -1,11 +1,3 @@
-//
-//  AppDelegate.m
-//  Jelbrek933
-//
-//  Created by zDevin on 2017-06-23.
-//  Copyright © 2017 PMJelbrek. All rights reserved.
-//
-
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
